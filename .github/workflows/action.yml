@@ -13,7 +13,7 @@ jobs:
             pwd
             ls -a
         - name: checkout
-          uses: actions/checkout@vl
+          uses: actions/checkout@v1
           #uses define a reference to an action
         - name: List Files After Checkout
           run: |
